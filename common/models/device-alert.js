@@ -11,6 +11,12 @@ module.exports = function(Devicealert) {
         to:result.setup_operator,
         subject:'hello test',
         text:'Li Jun'
+      },function(err){
+        if (err) {
+          throw err;
+        }
+        console.log('done');
+
       })
 
     })

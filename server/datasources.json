@@ -14,19 +14,19 @@
     "connector": "mssql"
   },
   "emailserver": {
-    "name": "emailserver",
-    "transports": [
-      {
-        "type": "smtp",
-        "host": "smtp.163.com",
-        "secure": true,
-        "port": 465,
-        "auth": {
-          "user": "velboy@163.com",
-          "pass": "WYqq40384312"
+      "name": "emailserver",
+      "connector": "mail",
+      "transports": [
+        {
+          "type": "SMTP",
+          "host": "smtp.gmail.com",
+          "secure": true,
+          "port": 465,
+          "auth": {
+            "user": "appleseedez@gmail.com",
+            "pass": "541101ZLYzly"
+          }
         }
-      }
-    ],
-    "connector": "mail"
-  }
+      ]
+    }
 }
