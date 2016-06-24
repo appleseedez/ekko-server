@@ -19,12 +19,15 @@
       "transports": [
         {
           "type": "SMTP",
-          "host": "smtp.gmail.com",
+          "host": "smtp.163.com",
           "secure": true,
           "port": 465,
+          "tls": {
+           "rejectUnauthorized": false
+        },
           "auth": {
-            "user": "appleseedez@gmail.com",
-            "pass": "541101ZLYzly"
+            "user": "vleboy@163.com",
+            "pass": "WYqq40384312"
           }
         }
       ]

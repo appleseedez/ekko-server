@@ -7,7 +7,7 @@ module.exports = function(Devicealert) {
     Devicealert.app.models.DeviceInfo.findOne({where:{device_id:ctx.instance.device_id}},function(err,result){
       console.log('to:',result.setup_operator);
       Devicealert.app.models.Email.send({
-        from:'noreply@loopback.com',
+        from:'vleboy@163.com',
         to:result.setup_operator,
         subject:'hello test',
         text:'Li Jun'
