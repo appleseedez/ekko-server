@@ -1,0 +1,53 @@
+{
+  "name": "DeviceAlert",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "alert_sn": {
+      "type": "string",
+      "comments": "告警序列"
+    },
+    "alert_type": {
+      "type": "string",
+      "comments": "告警类型"
+    },
+    "alert_level": {
+      "type": "string",
+      "comments": "告警级别"
+    },
+    "alert_date": {
+      "type": "date",
+      "comments": "告警时间"
+    },
+    "alert_value": {
+      "type": "string",
+      "comments": "告警数值"
+    },
+    "alert_note": {
+      "type": "string",
+      "comments": "告警备注"
+    },
+    "device_id": {
+      "type": "string",
+      "comments": "fk"
+    },
+    "alert_id": {
+      "type": "string",
+      "comments": "key"
+    },
+    "id": {
+      "type": "number",
+      "id": true,
+      "generated": true,
+      "comments": "pk"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

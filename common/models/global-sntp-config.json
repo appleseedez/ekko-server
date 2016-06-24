@@ -1,0 +1,28 @@
+{
+  "name": "GlobalSNTPConfig",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "id": true
+    },
+    "sntp_enable": {
+      "type": "boolean"
+    },
+    "server_ip": {
+      "type": "string"
+    },
+    "polling_cycle": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

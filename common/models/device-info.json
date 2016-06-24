@@ -1,0 +1,55 @@
+{
+  "name": "DeviceInfo",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "id": true
+    },
+    "device_name": {
+      "type": "string"
+    },
+    "device_model": {
+      "type": "string"
+    },
+    "device_sn": {
+      "type": "string"
+    },
+    "vendor": {
+      "type": "string"
+    },
+    "system_datetime": {
+      "type": "date"
+    },
+    "setup_datetime": {
+      "type": "date"
+    },
+    "os_version": {
+      "type": "string"
+    },
+    "hardware_version": {
+      "type": "string"
+    },
+    "setup_operator": {
+      "type": "string"
+    },
+    "setup_location": {
+      "type": "string"
+    },
+    "device_id": {
+      "type": "string"
+    },
+    "up_time": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

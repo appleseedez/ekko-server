@@ -1,0 +1,28 @@
+{
+  "name": "DeviceChannel",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "id": true
+    },
+    "channel_alias": {
+      "type": "string"
+    },
+    "channel_id": {
+      "type": "string"
+    },
+    "device_id": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

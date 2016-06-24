@@ -1,0 +1,32 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mssqlserver": {
+    "host": "120.25.96.54",
+    "port": 1433,
+    "url": "mssql://sa:Hello1234@120.25.96.54/ekko",
+    "database": "ekko",
+    "password": "Hello1234",
+    "name": "mssqlserver",
+    "user": "sa",
+    "connector": "mssql"
+  },
+  "emailserver": {
+    "name": "emailserver",
+    "transports": [
+      {
+        "type": "smtp",
+        "host": "smtp.sina.com",
+        "secure": true,
+        "port": 465,
+        "auth": {
+          "user": "velboy",
+          "pass": "WYqq40384312"
+        }
+      }
+    ],
+    "connector": "mail"
+  }
+}

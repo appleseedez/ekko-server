@@ -1,0 +1,43 @@
+{
+  "name": "DeviceNode",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "node_location": {
+      "type": "string"
+    },
+    "node_type": {
+      "type": "string"
+    },
+    "node_name": {
+      "type": "string"
+    },
+    "x": {
+      "type": "number"
+    },
+    "y": {
+      "type": "number"
+    },
+    "device_id": {
+      "type": "string"
+    },
+    "node_id": {
+      "type": "string"
+    },
+    "parent_id": {
+      "type": "string"
+    },
+    "id": {
+      "type": "number",
+      "id": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

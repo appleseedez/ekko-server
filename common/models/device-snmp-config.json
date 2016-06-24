@@ -1,0 +1,31 @@
+{
+  "name": "DeviceSNMPConfig",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "id": true
+    },
+    "trap_enable": {
+      "type": "boolean"
+    },
+    "trap_port": {
+      "type": "number"
+    },
+    "server_ip": {
+      "type": "string"
+    },
+    "device_id": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
