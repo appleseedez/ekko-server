@@ -18,11 +18,11 @@
     "transports": [
       {
         "type": "smtp",
-        "host": "smtp.sina.com",
+        "host": "smtp.163.com",
         "secure": true,
         "port": 465,
         "auth": {
-          "user": "velboy",
+          "user": "velboy@163.com",
           "pass": "WYqq40384312"
         }
       }
