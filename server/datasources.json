@@ -14,22 +14,22 @@
     "connector": "mssql"
   },
   "emailserver": {
-      "name": "emailserver",
-      "connector": "mail",
-      "transports": [
-        {
-          "type": "SMTP",
-          "host": "smtp.163.com",
-          "secure": true,
-          "port": 465,
-          "tls": {
-           "rejectUnauthorized": false
+    "name": "emailserver",
+    "connector": "mail",
+    "transports": [
+      {
+        "type": "SMTP",
+        "host": "smtp.163.com",
+        "secure": true,
+        "port": 465,
+        "tls": {
+          "rejectUnauthorized": false
         },
-          "auth": {
-            "user": "vleboy@163.com",
-            "pass": "WYqq40384312"
-          }
+        "auth": {
+          "user": "vleboy@163.com",
+          "pass": "WYqq40384312"
         }
-      ]
-    }
+      }
+    ]
+  }
 }

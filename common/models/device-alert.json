@@ -37,13 +37,20 @@
     },
     "alert_id": {
       "type": "string",
+      "id": true,
       "comments": "key"
     },
-    "id": {
-      "type": "number",
-      "id": true,
-      "generated": true,
-      "comments": "pk"
+    "confirm_time": {
+      "type": "date"
+    },
+    "confirm_operator": {
+      "type": "string"
+    },
+    "alert_status": {
+      "type": "string"
+    },
+    "ip_addr": {
+      "type": "string"
     }
   },
   "validations": [],

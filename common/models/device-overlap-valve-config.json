@@ -7,10 +7,6 @@
     "validateUpsert": true
   },
   "properties": {
-    "id": {
-      "type": "number",
-      "id": true
-    },
     "overlap_count": {
       "type": "number"
     },
@@ -18,7 +14,8 @@
       "type": "string"
     },
     "device_id": {
-      "type": "string"
+      "type": "string",
+      "id": true
     }
   },
   "validations": [],

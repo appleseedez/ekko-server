@@ -26,14 +26,11 @@
       "type": "string"
     },
     "node_id": {
-      "type": "string"
+      "type": "string",
+      "id": true
     },
     "parent_id": {
       "type": "string"
-    },
-    "id": {
-      "type": "number",
-      "id": true
     }
   },
   "validations": [],

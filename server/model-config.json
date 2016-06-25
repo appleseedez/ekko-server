@@ -72,31 +72,31 @@
     "$resolved": true
   },
   "DeviceSNMPConfig": {
-    "dataSource": "db",
+    "dataSource": "mssqlserver",
     "public": true,
     "$promise": {},
     "$resolved": true
   },
   "DeviceTimer": {
-    "dataSource": "db",
+    "dataSource": "mssqlserver",
     "public": true,
     "$promise": {},
     "$resolved": true
   },
   "GlobalAlertThresholdConfig": {
-    "dataSource": "db",
+    "dataSource": "mssqlserver",
     "public": true,
     "$promise": {},
     "$resolved": true
   },
   "GlobalSNTPConfig": {
-    "dataSource": "db",
+    "dataSource": "mssqlserver",
     "public": true,
     "$promise": {},
     "$resolved": true
   },
   "GlobalUpgradeConfig": {
-    "dataSource": "db",
+    "dataSource": "mssqlserver",
     "public": true,
     "$promise": {},
     "$resolved": true

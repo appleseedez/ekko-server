@@ -7,10 +7,6 @@
     "validateUpsert": true
   },
   "properties": {
-    "id": {
-      "type": "number",
-      "id": true
-    },
     "sntp_enable": {
       "type": "boolean"
     },
@@ -19,6 +15,10 @@
     },
     "polling_cycle": {
       "type": "number"
+    },
+    "id": {
+      "type": "number",
+      "id": true
     }
   },
   "validations": [],

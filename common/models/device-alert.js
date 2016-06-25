@@ -1,4 +1,8 @@
 module.exports = function(Devicealert) {
+  // Devicealert.observe('before save',function(ctx,next){
+  //   ctx.instance && (ctx.instance.id = ctx.instance.device_id)
+  //   next()
+  // })
   Devicealert.observe('after save',function(ctx,next){
     console.log('has been saved',ctx.instance.device_id);
     // var from = Devicealert.app.models.Email.dataSource.emailserver.transports[0].auth.user;

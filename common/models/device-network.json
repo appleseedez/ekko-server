@@ -7,10 +7,6 @@
     "validateUpsert": true
   },
   "properties": {
-    "id": {
-      "type": "number",
-      "id": true
-    },
     "mac_addr": {
       "type": "string"
     },
@@ -24,7 +20,8 @@
       "type": "string"
     },
     "device_id": {
-      "type": "string"
+      "type": "string",
+      "id": true
     }
   },
   "validations": [],
