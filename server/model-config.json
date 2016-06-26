@@ -14,22 +14,23 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "mssqlserver",
+    "public": true
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "mssqlserver",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "mssqlserver",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "mssqlserver",
     "public": false
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "mssqlserver",
     "public": false
   },
   "DeviceAlert": {
@@ -100,5 +101,9 @@
     "public": true,
     "$promise": {},
     "$resolved": true
+  },
+  "MyUser": {
+    "dataSource": "mssqlserver",
+    "public": true
   }
 }
