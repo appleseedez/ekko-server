@@ -9,20 +9,21 @@ module.exports = function(Devicealert) {
     // console.log('from',from);
 
     Devicealert.app.models.DeviceInfo.findOne({where:{device_id:ctx.instance.device_id}},function(err,result){
-      console.log('to:',result.setup_operator);
-      Devicealert.app.models.Email.send({
-        from:'vleboy@163.com',
-        to:result.setup_operator,
-        subject:'hello test',
-        text:'Li Jun'
-      },function(err){
-        if (err) {
-          throw err;
-        }
-        console.log('done');
+      if (result && result.setup_operator) {
+        console.log('to:',result.setup_operator);
+        Devicealert.app.models.Email.send({
+          from:'vleboy@163.com',
+          to:result.setup_operator,
+          subject:'hello test',
+          text:'Li Jun'
+        },function(err){
+          if (err) {
+            throw err;
+          }
+          console.log('done');
 
-      })
-
+        })
+      }
     })
     next();
   })
